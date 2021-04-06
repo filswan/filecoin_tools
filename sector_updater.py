@@ -4,7 +4,7 @@ import time
 
 EPOCHE_PER_DAY = 24 * 3600 / 30
 
-filename = '/var/logs/sectors'
+filename = '/var/logs/sectors.log'
 
 def get_current_epoch_by_current_time():
     current_timestamp = int(time.time())
